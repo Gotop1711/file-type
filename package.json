@@ -2,6 +2,8 @@
   "name": "file-type-browser-es5",
   "version": "1.0.0",
   "description": "",
+  "license": "MIT",
+  "repository": "Gotop1711/file-type/tree/file-type-browser-es5",
   "main": "dist/browser.js",
   "scripts": {
     "build": "babel browser.js core.js supported.js type.js util.js --out-dir dist",
@@ -15,7 +17,6 @@
     "email": "sindresorhus@gmail.com",
     "url": "https://sindresorhus.com"
   },
-  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
